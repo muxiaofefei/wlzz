@@ -1,0 +1,103 @@
+body,h3,p,input,button{
+    margin: 0;
+    padding: 0;
+}
+input,button{
+    border: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.tagBox{
+    width: 750px;
+    padding: 20px 25px 30px 25px;
+    background-color: #f4f4f4;
+    margin: 50px auto;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+.tagTiltle h3{
+    font: 700 18px/32px "arail","microsoft yahei";
+    color: #444;
+}
+.tagTiltle p{
+    font: 14px/24px "arail","microsoft yahei";
+    color: #a59999;
+}
+.tagCon{
+    padding: 25px 0;
+}
+.tag{
+    padding: 12px 42px 12px 35px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    float: left;
+    margin: 0 10px 5px 0;
+    position: relative;
+    cursor: pointer;
+}
+.tagtxt{
+    font: 600 14px "microsoft yahei";
+    color: #333;
+}
+.closetag{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #ccc;
+    font: 600 12px/16px "simsun";
+    text-align: center;
+    color: #f1f1f1;
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+.closetag:hover{
+    background-color: #2a92f3;
+}
+.move{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url("/images/move.png");
+    top: 14px;
+    left: 10px;
+}
+.addBox input{
+    width: 400px;
+    height: 38px;
+    border: 1px solid #ddd;
+    padding-left: 8px;
+    float: left;
+    background-color: #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.addBox button{
+    width: 54px;
+    height: 40px;
+    border: 1px solid #bbb;
+    float: left;
+    margin-left: 10px;
+    font: 500 14px/40px "microsoft yahei";
+    text-align: center;
+    color: #888;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.addBox button:hover{
+    color: #666;
+}
